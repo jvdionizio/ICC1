@@ -7,3 +7,18 @@
 #include <stdio.h>
 #include <math.h>
 
+int main () {
+    int x;
+    float y;
+
+    scanf("%d", &x);
+
+    scanf("%f", &y);
+
+    float consumo = x/y;
+
+    printf("%.3f", consumo);
+
+    return 0;
+
+}
