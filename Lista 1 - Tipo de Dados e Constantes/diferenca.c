@@ -13,7 +13,7 @@ int main ()
 
     int diferenca = (a*b - c*d);
 
-    printf("%d", diferenca);
+    printf("%d\n", diferenca);
 
     return 0;
 }
